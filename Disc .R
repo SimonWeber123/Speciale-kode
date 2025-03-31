@@ -2,8 +2,8 @@
 library(ggplot2)
 
 # Constants (divide total weight by 4 discs)
-V1 <- 0.00112  # Volume per buoy for 2.726 kg + suction force (in m^3)
-V2 <- 0.00139  # Volume per buoy for 3.8 kg + suction force (in m^3)
+V1 <- 0.001266
+V2 <- 0.001533 
 
 # Define disc diameters (meters)
 disc_diameters_m <- seq(0.5, 10, by = 0.1)  # From 0.5m to 10m
