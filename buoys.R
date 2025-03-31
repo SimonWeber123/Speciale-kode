@@ -11,8 +11,8 @@ spherical_cap_volume <- function(h, r, V) {
 }
 
 # Define parameters
-V1 <- 0.00112  # Volume per buoy for 2.726 kg + suction force (in m^3)
-V2 <- 0.00139  # Volume per buoy for 3.8 kg + suction force (in m^3)
+V1 <- 0.001266
+V2 <- 0.001533 
 r_values <- seq(0.1, 10, by = 0.01)  # Buoy radii from 0.1 m to 10 m (exclude very small radii)
 
 # Initialize vectors to store results
